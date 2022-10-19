@@ -1,24 +1,53 @@
-# README
+![](https://img.shields.io/badge/Microverse-blueviolet)
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# Blog App
 
-Things you may want to cover:
+> Classical Blog Application created with Ruby ON Rails. The user can share their thoughts and get likes and comments from the fellow Users!
 
-* Ruby version
+## Made With
 
-* System dependencies
+- Ruby on Rails
 
-* Configuration
+## Getting Started
 
-* Database creation
+### Setup
 
-* Database initialization
+To setup the project locally: clone the repository using:
 
-* How to run the test suite
+```
+git clone https://github.com/developerwaleed/Rails-Blog-App.git
+```
 
-* Services (job queues, cache servers, search engines, etc.)
+### Install dependencies
+run:
+```
+bundle install
+```
 
-* Deployment instructions
+### Setup database
 
-* ...
+
+### Run the app
+run:
+```
+rails s
+```
+
+## Authors
+
+👤 **Waleed Amjad**
+
+| 👤 Name | Github | Twitter | LinkedIn |
+|------|--------|---------|----------|
+|Waleed Amjad|[@caasperr](https://github.com/developerwaleed)|[@developerwaleed](https://twitter.com/developerwaleed)|[@developerwaleed](https://www.linkedin.com/in/developerwaleed/)|
+
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](../../issues/).
+
+## Show your support
+
+Give a ⭐️ if you like this project!
