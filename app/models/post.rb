@@ -9,6 +9,6 @@ class Post < ApplicationRecord
   end
 
   def fetch_recent_comments
-    comments.order('created_at DESC').last(5)
+    comments.last(5)
   end
 end

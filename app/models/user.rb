@@ -4,6 +4,6 @@ class User < ApplicationRecord
   has_many :comments, foreign_key: 'author_id'
 
   def fetch_recent_posts
-    posts.order('created_at DESC').last(3)
+    posts.last(5)
   end
 end
