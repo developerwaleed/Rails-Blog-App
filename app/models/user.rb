@@ -6,6 +6,6 @@ class User < ApplicationRecord
   validates :posts_counter, numericality: { only_integer: true, greater_than_or_equal_to: 0 }
 
   def fetch_recent_posts
-    posts.last(5)
+    posts.last(3)
   end
 end
