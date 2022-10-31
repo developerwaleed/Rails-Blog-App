@@ -26,6 +26,8 @@ gem 'turbo-rails'
 # Hotwire's modest JavaScript framework [https://stimulus.hotwired.dev]
 gem 'stimulus-rails'
 
+gem 'rspec-rails'
+
 # Build JSON APIs with ease [https://github.com/rails/jbuilder]
 gem 'jbuilder'
 
@@ -61,6 +63,12 @@ group :development, :test do
   gem 'ffi'
 
   gem 'rspec-rails'
+
+  gem "database_cleaner"
+
+  gem 'capybara'
+
+  gem 'webdrivers'
 
   gem 'rails-controller-testing'
 end
