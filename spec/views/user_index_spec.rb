@@ -1,6 +1,6 @@
 require 'rails_helper'
 
-RSpec.describe 'Index page', type: :system do
+RSpec.describe 'Index page', type: :feature do
     before(:each) do
       @user = User.create(
         name: 'Waleed',
