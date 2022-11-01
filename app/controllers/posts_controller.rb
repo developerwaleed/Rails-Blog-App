@@ -1,6 +1,10 @@
 class PostsController < ApplicationController
   def index
+<<<<<<< HEAD
     @user = User.includes([:posts]).find(params[:user_id].to_i)
+=======
+    @user = User.includes(posts: %i[comments author]).find(params[:user_id].to_i)
+>>>>>>> f65c710cd49d005ddf93d71a8150dc4364180756
   end
 
   def show

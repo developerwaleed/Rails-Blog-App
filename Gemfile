@@ -83,4 +83,8 @@ end
 group :test do
   # Use system testing [https://guides.rubyonrails.org/testing.html#system-testing]
   gem 'selenium-webdriver'
+<<<<<<< HEAD
 end
+=======
+end
+>>>>>>> f65c710cd49d005ddf93d71a8150dc4364180756
