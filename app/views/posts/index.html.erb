@@ -37,7 +37,7 @@
     <% if post.fetch_recent_comments.length == 0 %>
       <p>No comments Available!</p>
     <% else %>
-    <% post.five_recent_comments.each do |comment| %>
+    <% post.fetch_recent_comments.each do |comment| %>
       <p><%=comment.author.name %>: <%=comment.text %></p>
     <%end%>
     <% end %>
