@@ -1,21 +1,21 @@
 require 'rails_helper'
 
 RSpec.describe 'Index page', type: :feature do
-    before(:each) do
-      @user = User.create(
-        name: 'Waleed',
-        bio: 'Software Developer',
-        photo: 'http://hello.com/org.png',
-        posts_counter: 0
-      )
-  
-      @user_two = User.create(
-        name: 'Berkay',
-        bio: 'Graphic designer',
-        photo: 'http://hello.com/ogene.png',
-        posts_counter: 0
-      )
-    end
+  before(:each) do
+    @user = User.create(
+      name: 'Waleed',
+      bio: 'Software Developer',
+      photo: 'http://hello.com/org.png',
+      posts_counter: 0
+    )
+
+    @user_two = User.create(
+      name: 'Berkay',
+      bio: 'Graphic designer',
+      photo: 'http://hello.com/ogene.png',
+      posts_counter: 0
+    )
+  end
   describe 'index page' do
     it 'shows the right content' do
       visit users_path
