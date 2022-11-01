@@ -21,5 +21,4 @@ RSpec.describe 'Posts', type: %w[request feature] do
     visit "/users/#{@user.id}/posts/"
     expect(page).to have_text('posts')
   end
-
 end
