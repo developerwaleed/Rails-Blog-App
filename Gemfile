@@ -26,6 +26,8 @@ gem 'stimulus-rails'
 
 gem 'bullet'
 
+gem 'devise'
+
 gem 'rspec-rails'
 
 # Build JSON APIs with ease [https://github.com/rails/jbuilder]
