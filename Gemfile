@@ -24,6 +24,10 @@ gem 'turbo-rails'
 # Hotwire's modest JavaScript framework [https://stimulus.hotwired.dev]
 gem 'stimulus-rails'
 
+gem 'bullet'
+
+gem 'rspec-rails'
+
 # Build JSON APIs with ease [https://github.com/rails/jbuilder]
 gem 'jbuilder'
 
@@ -58,7 +62,11 @@ group :development, :test do
 
   gem 'ffi'
 
-  gem 'rspec-rails'
+  gem 'database_cleaner'
+
+  gem 'capybara'
+
+  gem 'webdrivers'
 
   gem 'rails-controller-testing'
 end
@@ -76,7 +84,5 @@ end
 
 group :test do
   # Use system testing [https://guides.rubyonrails.org/testing.html#system-testing]
-  gem 'capybara'
   gem 'selenium-webdriver'
-  gem 'webdrivers'
 end
