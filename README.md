@@ -40,6 +40,8 @@ rails s
 | 👤 Name | Github | Twitter | LinkedIn |
 |------|--------|---------|----------|
 |Waleed Amjad|[@caasperr](https://github.com/developerwaleed)|[@developerwaleed](https://twitter.com/developerwaleed)|[@developerwaleed](https://www.linkedin.com/in/developerwaleed/)|
+| 👤 Name | Github | Twitter | LinkedIn |
+|Berkay Akbas|[@Berkay-akbas]([Berkay-akbas](https://github.com/Berkay-akbas))|
 
 
 ## 🤝 Contributing
